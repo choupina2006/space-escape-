@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background: #000;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  margin: 10px;
+}
+
+#game {
+  position: relative;
+  width: 400px;
+  height: 600px;
+  margin: auto;
+  background: radial-gradient(#111, #000);
+  border: 3px solid white;
+  overflow: hidden;
+}
+
+#ship {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  bottom: 20px;
+  left: 180px;
+  background: url('https://upload.wikimedia.org/wikipedia/commons/5/55/Space_ship_icon.png') no-repeat center/contain;
+}
+
+.asteroid, .star {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+}
+
+.asteroid {
+  background: url('https://upload.wikimedia.org/wikipedia/commons/6/63/Asteroid_icon.png') no-repeat center/contain;
+}
+
+.star {
+  background: url('https://upload.wikimedia.org/wikipedia/commons/1/18/Five-pointed_star.svg') no-repeat center/contain;
+}
+
+#score {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-weight: bold;
+  font-size: 16px;
+}
